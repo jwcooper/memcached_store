@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 2.2.0"
 
   spec.add_runtime_dependency "activesupport", ">= 4"
-  spec.add_runtime_dependency "memcached", "~> 1.8.0"
+  spec.add_runtime_dependency "memcached", ">= 2.0.0.alpha"
 
   spec.add_development_dependency "rake"
 end
